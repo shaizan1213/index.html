@@ -1,3 +1,25 @@
 li{
   list-style-type: none !important;
 }
+.register {
+  border-style: solid;
+  border-width: 0px 1px 0px 0px;
+  border-color: #E7E7E7;
+}
+.nav {
+  background-color: black !important;
+  --bs-nav-link-color: #ffffff !important;
+}
+.nav {
+  --bs-nav-link-padding-x: 1rem;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-weight: ;
+  --bs-nav-link-color: #e2e6ed;
+  --bs-nav-link-hover-color: var(--bs-link-hover-color);
+  --bs-nav-link-disabled-color: var(--bs-secondary-color);
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
