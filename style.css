@@ -1,6 +1,9 @@
 li{
   list-style-type: none !important;
 }
+ .hotline{
+  margin: auto;
+ }
 .register {
   border-style: solid;
   border-width: 0px 1px 0px 0px;
@@ -22,4 +25,52 @@ li{
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+}
+.herosection{
+  opacity: 95%;
+  background-image: url("https://eduma.thimpress.com/wp-content/uploads/2022/08/banner-courses-hub.jpg");
+  height: 100%;
+  width: 100%;
+  top: 30;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+.textsection{
+    font-size: 15px;
+    font-family: var(--thim-font-title-font-family);
+    font-weight: 800;
+    line-height: 1.2em;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 5vh;
+}
+.section2{
+  margin-bottom: 0%;
+    font-size: 12px;
+    font-family: var(--thim-font-title-font-family);
+    font-weight: 1px;
+    line-height: 0em;
+    color: #FFFFFF;
+    text-align: center;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:10vh;
+}
+.search{
+  margin-bottom: 10px;
+  line-height: 1.2em;
+  color: #ffffff09;
+  text-align: center;
+  height: 32vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 5vh;
 }
