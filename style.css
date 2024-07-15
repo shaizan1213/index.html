@@ -29,25 +29,18 @@ li{
 .herosection{
   opacity: 95%;
   background-image: url("https://eduma.thimpress.com/wp-content/uploads/2022/08/banner-courses-hub.jpg");
-  height: 100%;
-  width: 100%;
-  top: 30;
-  left: 0;
-  right: 0;
-  position: absolute;
+  filter: brightness(70%);
+
 }
 
 .textsection{
-    font-size: 15px;
+    font-size: 21px;
     font-family: var(--thim-font-title-font-family);
-    font-weight: 800;
-    line-height: 1.2em;
+    font-weight: 0px;
     color: #FFFFFF;
     text-align: center;
-    display: flex;
     align-items: center;
-    justify-content: center;
-    right: 5vh;
+    padding-bottom: 90px;
 }
 .section2{
   margin-bottom: 0%;
@@ -64,13 +57,55 @@ li{
     margin-top:10vh;
 }
 .search{
+  position: relative;
   margin-bottom: 10px;
   line-height: 1.2em;
   color: #ffffff09;
   text-align: center;
-  height: 32vh;
+  height: 32px;
   display: flex;
   align-items: center;
   justify-content: center;
-  right: 5vh;
+  left:40px;
+  background: transparent;
+  padding-top: 45px;
+  height: 30px;
+
+}
+
+.elements{
+  padding: inherit;
+  position: relative;
+  text-align: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+  
+  
+}
+.ABC{
+  padding-right: 10px;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  width: 500px !important;
+}
+.card-body{
+  text-align: center;
+}
+.card{
+  margin-left: 50px;
+    padding-top: 40px;
+}
+.a{
+    color: rgb(15 16 18);
+    text-decoration: underline;
+}
+.body{
+  position: fixed;
 }
