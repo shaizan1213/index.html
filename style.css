@@ -99,13 +99,52 @@ li{
   text-align: center;
 }
 .card{
-  margin-left: 50px;
     padding-top: 40px;
 }
 .a{
     color: rgb(15 16 18);
     text-decoration: underline;
 }
-.body{
-  position: fixed;
+
+.conatainer2{
+  padding-top: 50px;
+  background-color: rgb(235 235 235);
+  padding-left: 142px;
+}
+.container3{
+  padding-top: 50px;
+  background-color: rgb(255, 255, 255);
+}
+.image{
+    position: absolute;
+    border-radius: 56%;
+    top: 208px;
+    height: 66px;
+    right: 119px
+}
+.row{
+  padding-left: 35px;
+}
+.h6{
+  color: black;
+}
+.comment{
+  margin: right 0;;
+}
+.share{
+  margin: right 0;
+}
+.new{
+    font-size: 13px;
+    position: absolute;
+    right: 625px;
+    opacity: 61%
+}
+.setting-icon{
+  width: 96px;
+  height: 48px;
+  color: black;
+}
+.a {
+  color: black !important;
 }
