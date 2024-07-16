@@ -27,9 +27,8 @@ li{
   list-style: none;
 }
 .herosection{
-  opacity: 95%;
   background-image: url("https://eduma.thimpress.com/wp-content/uploads/2022/08/banner-courses-hub.jpg");
-  filter: brightness(70%);
+  filter: brightness(100%);
 
 }
 
