@@ -1,149 +1,371 @@
-li{
-  list-style-type: none !important;
-}
- .hotline{
-  margin: auto;
- }
-.register {
-  border-style: solid;
-  border-width: 0px 1px 0px 0px;
-  border-color: #E7E7E7;
-}
-.nav {
-  background-color: black !important;
-  --bs-nav-link-color: #ffffff !important;
-}
-.nav {
-  --bs-nav-link-padding-x: 1rem;
-  --bs-nav-link-padding-y: 0.5rem;
-  --bs-nav-link-font-weight: ;
-  --bs-nav-link-color: #e2e6ed;
-  --bs-nav-link-hover-color: var(--bs-link-hover-color);
-  --bs-nav-link-disabled-color: var(--bs-secondary-color);
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-}
-.herosection{
-  background-image: url("https://eduma.thimpress.com/wp-content/uploads/2022/08/banner-courses-hub.jpg");
-  filter: brightness(100%);
-
+body {
+    font-family: Arial, sans-serif;
 }
 
-.textsection{
-    font-size: 21px;
-    font-family: var(--thim-font-title-font-family);
-    font-weight: 0px;
-    color: #FFFFFF;
-    text-align: center;
-    align-items: center;
-    padding-bottom: 90px;
+.top-bar {
+    font-size: 0.9rem;
 }
-.section2{
-  margin-bottom: 0%;
-    font-size: 12px;
-    font-family: var(--thim-font-title-font-family);
-    font-weight: 1px;
-    line-height: 0em;
-    color: #FFFFFF;
-    text-align: center;
-    height: 5vh;
+
+.navbar-nav .nav-link {
+    font-weight: bold;
+    color: #333 !important;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 10px;
+}
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .nav-item {
+        padding: 5px 0;
+    }
+}/* Existing styles ... */
+
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.dropdown-item {
+    padding: 10px 20px;
+    color: #333;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+@media (max-width: 991px) {
+    .navbar-nav .dropdown-menu {
+        text-align: center;
+        background-color: #f8f9fa;
+        border: none;
+        box-shadow: none;
+    }
+
+    .navbar-nav .dropdown-item {
+        padding: 10px 0;
+    }
+}
+
+.hero {
+    background-image: url('https://eduma.thimpress.com/wp-content/uploads/2022/08/banner-courses-hub.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
     display: flex;
     align-items: center;
+    position: relative;
+    padding: 80px 0;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(38, 32, 32, 0.57);
+}
+
+.hero .container {
+    position: relative;
+    z-index: 1;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.hero .lead {
+    font-size: 1.25rem;
+    color: #fff1f1;
+}
+
+.search-bar {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.search-bar input {
+    padding-right: 50px;
+    height: 60px;
+    font-size: 1.1rem;
+}
+
+.search-bar button {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    width: 50px;
+}
+
+.features p {
+    font-size: 1.1rem;
+    color: #fff2f2;
+}
+
+.features i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero .lead {
+        font-size: 1.1rem;
+    }
+
+    .features p {
+        font-size: 1rem;
+    }
+}
+.card-section .card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-section .card-img-top {
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .card-section .card-title {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .popular-courses .card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .popular-courses .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .popular-courses .card-title {
+    font-size: 1rem;
+    font-weight: bold;
+  }.btn-light {
+    background-color: #f8f9fa;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  .btn-light:hover {
+    background-color: #e2e6ea;
+  }
+  .top-categories .card {
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .top-categories .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 991.98px) {
+    .top-categories h2 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+  }
+  .new-courses .card {
+    transition: transform 0.2s;
+  }
+  
+  .new-courses .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .new-courses .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .new-courses .card-title {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .new-courses .rounded-circle {
+    border: 3px solid #fff;
+    box-shadow: 0 0 0 1px #e0e0e0;
+  }
+  .counter-section {
+    position: relative;
+    padding: 80px 0;
+  }
+  
+  .counter-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .counter-item {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .counter-item i {
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+  
+  .counter-item h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .counter-item p {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+  }
+  
+  /* Vertical dividers between counter items */
+  @media (min-width: 768px) {
+    .counter-item:not(:last-child)::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+      height: 50px;
+      width: 1px;
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+  }
+  .testimonial-section {
+    background-color: #f8f9fa;
+  }
+  
+  .avatar-group {
+    display: flex;
     justify-content: center;
-    margin-top:10vh;
-}
-.search{
-  position: relative;
-  margin-bottom: 10px;
-  line-height: 1.2em;
-  color: #ffffff09;
-  text-align: center;
-  height: 32px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  left:40px;
-  background: transparent;
-  padding-top: 45px;
-  height: 30px;
-
-}
-
-.elements{
-  padding: inherit;
-  position: relative;
-  text-align: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-right: 10px;
+  }
   
+  .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 -10px;
+    border: 2px solid #fff;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+  }
   
-}
-.ABC{
-  padding-right: 10px;
-}
-.form-control {
-  display: block;
-  width: 100%;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  width: 500px !important;
-}
-.card-body{
-  text-align: center;
-}
-.card{
-    padding-top: 40px;
-}
-.a{
-    color: rgb(15 16 18);
-    text-decoration: underline;
+  .avatar.active {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  
+  .testimonial-text {
+    max-width: 800px;
+    margin: 0 auto;
+    font-style: italic;
+  }
+  
+  /* Owl Carousel Custom Styles */
+  .owl-theme .owl-dots .owl-dot span {
+    background: #d6d6d6;
+  }
+  
+  .owl-theme .owl-dots .owl-dot.active span,
+  .owl-theme .owl-dots .owl-dot:hover span {
+    background: #869791;
+  }
+  footer {
+    background-color: #2C2C2C;
 }
 
-.conatainer2{
-  padding-top: 50px;
-  background-color: rgb(235 235 235);
-  padding-left: 142px;
+footer a {
+    color: #ffffff;
+    transition: color 0.2s;
 }
-.container3{
-  padding-top: 50px;
-  background-color: rgb(255, 255, 255);
+
+footer a:hover {
+    color: #FFD700;
 }
-.image{
-    position: absolute;
-    border-radius: 56%;
-    top: 208px;
-    height: 66px;
-    right: 119px
+
+footer .fa {
+    color: #FFD700;
+    transition: color 0.2s;
 }
-.row{
-  padding-left: 35px;
+
+footer .fa:hover {
+    color: #ffffff;
 }
-.h6{
-  color: black;
+
+.subscribe-section {
+    background-color: #f8f8f8;
+    padding: 40px 0;
 }
-.comment{
-  margin: right 0;;
+
+.subscribe-section p {
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.6;
 }
-.share{
-  margin: right 0;
+
+.subscribe-section input.form-control {
+    border-radius: 25px 0 0 25px;
+    padding-left: 20px;
+    border: 1px solid #dddddd;
 }
-.new{
-    font-size: 13px;
-    position: absolute;
-    right: 625px;
-    opacity: 61%
+
+.subscribe-section button.btn-warning {
+    border-radius: 0 25px 25px 0;
+    padding: 10px 20px;
+    background-color: #FFD700;
+    border-color: #FFD700;
+    font-weight: bold;
 }
-.setting-icon{
-  width: 96px;
-  height: 48px;
-  color: black;
+
+.subscribe-section button.btn-warning:hover {
+    background-color: #FFC107;
+    border-color: #FFC107;
 }
-.a {
-  color: black !important;
+footer {
+    background-color: #2C2C2C;
+}
+
+footer a {
+    color: #ffffff;
+    transition: color 0.2s;
+}
+
+footer a:hover {
+    color: #FFD700;
+}
+
+footer .fa {
+    color: #FFD700;
+    transition: color 0.2s;
+}
+
+footer .fa:hover {
+    color: #ffffff;
 }
