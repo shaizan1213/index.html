@@ -1,464 +1,715 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduma - Online Learning Platform</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
-
 <body>
-  <nav class="nav">
-    <a class="nav-link secondary" aria-current="page" href="#"> Contact us: <svg xmlns="http://www.w3.org/2000/svg"
-        width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
-        <path fill-rule="evenodd"
-          d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
-      </svg>></i>(+88 2345 33444)</a>
-    <a class="nav-link " href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-        class="bi bi-envelope-arrow-down" viewBox="0 0 16 16">
-        <path
-          d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v4.5a.5.5 0 0 1-1 0V5.383l-7 4.2-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h5.5a.5.5 0 0 1 0 1H2a2 2 0 0 1-2-1.99zm1 7.105 4.708-2.897L1 5.383zM1 4v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1" />
-        <path
-          d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.354-1.646a.5.5 0 0 1-.722-.016l-1.149-1.25a.5.5 0 1 1 .737-.676l.28.305V11a.5.5 0 0 1 1 0v1.793l.396-.397a.5.5 0 0 1 .708.708z" />
-      </svg> contact@thimpress.com </a>
-    <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-        class="bi bi-people" viewBox="0 0 16 16">
-        <path
-          d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4" />
-      </svg> demo account</a>
-    <a class="nav-link disabled" aria-disabled="true"></a>
-  </nav>
-  <nav class="navbar bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="https://eduma.thimpress.com/wp-content/uploads/2022/06/logo-edu_black-1.png" alt="Logo" width="155"
-          height="36.54" class="d-inline-block align-text-top">
-      </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-          aria-expanded="false">Demos</a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
-          <li><a class="dropdown-item" href="#">Something else here</a></li>
-        </ul>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-          aria-expanded="false">courses</a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
-          <li><a class="dropdown-item" href="#">Something else here</a></li>
-        </ul>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-          aria-expanded="false">pages</a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
-          <li><a class="dropdown-item" href="#">Something else here</a></li>
-        </ul>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-          aria-expanded="false">elements</a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
-          <li><a class="dropdown-item" href="#">Something else here</a></li>
-        </ul>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-          aria-expanded="false">shop</a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
-          <li><a class="dropdown-item" href="#">Something else here</a></li>
-        </ul>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-          aria-expanded="false">blogs</a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Action</a></li>
-          <li><a class="dropdown-item" href="#">Another action</a></li>
-          <li><a class="dropdown-item" href="#">Something else here</a></li>
-        </ul>
+    <header>
+        <div class="top-bar bg-dark text-light py-2">
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="contact-info">
+                    <span class="me-3"><i class="bi bi-telephone"></i> (+88) 1990 6886</span>
+                    <span><i class="bi bi-envelope"></i> contact@thimpress.com</span>
+                </div>
+                <div class="user-actions">
+                    <a href="#" class="text-light me-3">Demo account</a>
+                    <a href="#" class="text-light">Register</a>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="https://eduma.thimpress.com/wp-content/uploads/2022/06/logo-edu_black-1.png" alt="Eduma" height="40">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="demosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                DEMOS
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="demosDropdown">
+                                <li><a class="dropdown-item" href="#">Demo 1</a></li>
+                                <li><a class="dropdown-item" href="#">Demo 2</a></li>
+                                <li><a class="dropdown-item" href="#">Demo 3</a></li>
+                                <li><a class="dropdown-item" href="#">Demo 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="demosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                COURSES
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="demosDropdown">
+                                <li><a class="dropdown-item" href="#">Demo 1</a></li>
+                                <li><a class="dropdown-item" href="#">Demo 2</a></li>
+                                <li><a class="dropdown-item" href="#">Demo 3</a></li>
+                                <li><a class="dropdown-item" href="#">Demo 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="demosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                PAGES
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="demosDropdown">
+                                <li><a class="dropdown-item" href="#">Demo 1</a></li>
+                                <li><a class="dropdown-item" href="#">Demo 2</a></li>
+                                <li><a class="dropdown-item" href="#">Demo 3</a></li>
+                                <li><a class="dropdown-item" href="#">Demo 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ELEMENTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BLOG</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="demosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                SHOP
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="demosDropdown">
+                                <li><a class="dropdown-item" href="#">Demo 1</a></li>
+                                <li><a class="dropdown-item" href="#">Demo 2</a></li>
+                                <li><a class="dropdown-item" href="#">Demo 3</a></li>
+                                <li><a class="dropdown-item" href="#">Demo 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-      </li>
-      <div class="icon">
-        <i class="bi bi-search"></i><svg xmlns="http://www.w3.org/2000/svg" width="21" height="24" fill="currentColor"
-          class="bi bi-search" viewBox="0 0 16 16">
-          <path
-            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
-        </svg>
-      </div>
-  </nav>
-  <div class="herosection">
-    <div class="container-fluid">
-      <div class="textsection" style="display: block;padding-top: 64px;backdrop-filter: brightness(0.5); max-width: 100%;">
-        <h3>
-          ONLINE COURSES TO LEARN
-        </h3>
-        <span style="color: white;"> own your future courses</span>
-        <div class="search" style="padding-right: 64px;">
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" style="
-    background: transparent color: white;"  />
-            <button class="btn btn-outline-success"type="submit" style="background-color: white;border-color: white;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-            </svg></button>
-          </form>
-        </div>
-        <div class="elements " style="top: 10px;">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="" fill="currentColor" class="bi bi-mortarboard"
-            viewBox="0 0 16 16" style="color: rgba(255, 255, 255, 0.984);">
-            <path
-              d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917zM8 8.46 1.758 5.965 8 3.052l6.242 2.913z" />
-            <path
-              d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46z" />
-          </svg> <span style="margin-left: 10px;">Over 7 million students</span>
-          <svg style="margin-left: 20px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-            class="bi bi-journal-bookmark" viewBox="0 0 16 16">
-            <path fill-rule="evenodd"
-              d="M6 8V1h1v6.117L8.743 6.07a.5.5 0 0 1 .514 0L11 7.117V1h1v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8" />
-            <path
-              d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2" />
-            <path
-              d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z" />
-          </svg><span style="margin-left: 10px;">More than 30,000 courses</span>
-          <svg style="margin-left: 10px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-            class="bi bi-pencil-square" viewBox="0 0 16 16">
-            <path
-              d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
-            <path fill-rule="evenodd"
-              d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z" />
-          </svg><span style="margin-left: 10px;"> Learn anything online</span>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid">
-  <div class="conatainer2">
-  <div class="row">
-    <div class="col-lg-4">
-      <div class="card" style="width: 18rem; position: relative;">
-        <a href="#"> <img class="card-img-top" src="https://eduma.thimpress.com/wp-content/uploads/2022/06/courses-13-450x450.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title"><span style="text-decoration-line:none; color: black;">Top tutorial code for startup</span></h5>
-        </a>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-4">
-      <div class="card" style="width: 18rem; position: relative;">
-      <a href="#"> <img class="card-img-top" src="https://eduma.thimpress.com/wp-content/uploads/2022/06/courses-5-450x450.jpg" alt="Card image cap">
-        <div class="card-body"style="height: 87px;">
-          <h5 class="card-title" ><span style="text-decoration-line:none; color: black;">Education word press theme</span></h5>
-        </div>
-      </a>
-      </div>
-    </div>
-    <div class="col-lg-4">
-      <div class="card" style="width: 18rem; position: relative;">
-        <a href="#"><img class="card-img-top" src="https://eduma.thimpress.com/wp-content/uploads/2022/06/courses-7-450x450.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title"><span style="text-decoration-line:none; color: black;">The the Php tutorial</span></h5>
-          <a></a>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-  <h2 style="text-align: center; padding-top: 44px;" ><strong>POPULAR COURSES</strong><BR>
-  <span style="font-size: 13px;margin-top: 10px;" >Limitless learning, more possibilities</span></h2>
-  <div class="container-fluid">
-  <div class="container3">
-    <div class="row">
-      <div class="col-lg-3">
-        <div class="card" style="width: 18rem; position: relative;">
-          <a href="#"style="text-decoration: none;"> <img class="card-img-top" src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-18-400x300.jpg" alt="Card image cap">
-          <div class="card-body">
-             <img src="https://secure.gravatar.com/avatar/17445360b49029117e3e61d7fc65c959?s=96&r=g" alt="Image" class="image">
-            <div class="overlay"></div>
-            <h5 class="card-title" style="color: rgb(104 113 127);">keny white </h5>
-            <h6 class="card-title" style="color: rgb(0, 0, 0);">HOW TO TEACH ENGLISH ONLINE AND GET PAID </h6>
-            <div class="alignment">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="comment" viewBox="0 0 16 16">
-              <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z"/>
-            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="share" viewBox="0 0 16 16">
-              <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
-            </svg>
-          </div>
-          </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3">
-        <div class="card" style="width: 18rem; position: relative;">
-        <a href="#" style="text-decoration: none;"> <img class="card-img-top" src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-17-400x300.jpg" alt="Card image cap">
-          <div class="card-body">
-            <img src="https://eduma.thimpress.com/wp-content/uploads/learn-press-profile/7/e5c6a6fb8aa3864eacaec471611e0470.jpeg" alt="Image" class="image">
-            <div class="overlay"></div>
-            <h5 class="card-title" style="color: rgb(104 113 127);">keny white </h5>
-            <h6 class="card-title" style="color: rgb(0, 0, 0);">HOW TO TEACH ENGLISH ONLINE AND GET PAID </h6>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="comment" viewBox="0 0 16 16">
-              <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z"/>
-            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="share" viewBox="0 0 16 16">
-              <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
-            </svg>
-          </div>
-        </a>
-        </div>
-      </div>
-      <div class="col-lg-3">
-        <div class="card" style="width: 18rem; position: relative;">
-          <a href="#"style="text-decoration: none;"><img class="card-img-top" src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-16-400x300.jpg" alt="Card image cap">
-          <div class="card-body">
-            <img src="https://secure.gravatar.com/avatar/17445360b49029117e3e61d7fc65c959?s=96&r=g" alt="Image" class="image">
-            <div class="overlay"></div>
-            <h5 class="card-title" style="color: rgb(104 113 127);">keny white </h5>
-            <h6 class="card-title" style="color: rgb(0, 0, 0);">HOW TO TEACH ENGLISH ONLINE AND GET PAID </h6>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="comment" viewBox="0 0 16 16">
-              <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z"/>
-            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="share" viewBox="0 0 16 16">
-              <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
-            </svg>
-            <a></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3">
-        <div class="card" style="width: 18rem; position: relative;">
-          <a href="#"style="text-decoration: none;"><img class="card-img-top" src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-15-400x300.jpg" alt="Card image cap">
-          <div class="card-body">
-            <img src="https://eduma.thimpress.com/wp-content/uploads/learn-press-profile/7/e5c6a6fb8aa3864eacaec471611e0470.jpeg" alt="Image" class="image">
-            <div class="overlay"></div>
-            <h5 class="card-title" style="color: rgb(104 113 127);">keny white </h5>
-            <h6 class="card-title" style="color: rgb(0, 0, 0);">HOW TO TEACH ENGLISH ONLINE AND GET PAID </h6>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="comment" viewBox="0 0 16 16">
-              <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z"/>
-            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="share" viewBox="0 0 16 16">
-              <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
-            </svg>
-            <a></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3">
-        <div class="card" style="width: 18rem; position: relative;">
-          <a href="#"style="text-decoration: none;"> <img class="card-img-top" src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-14-400x300.jpg" alt="Card image cap">
-          <div class="card-body">
-            <img src="https://secure.gravatar.com/avatar/17445360b49029117e3e61d7fc65c959?s=96&r=g" alt="Image" class="image">
-            <div class="overlay"></div>
-            <h5 class="card-title" style="color: rgb(104 113 127);">keny white </h5>
-            <h6 class="card-title" style="color: rgb(0, 0, 0);">HOW TO TEACH ENGLISH ONLINE AND GET PAID </h6>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="comment" viewBox="0 0 16 16">
-              <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z"/>
-            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="share" viewBox="0 0 16 16">
-              <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
-            </svg>
-          </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3">
-        <div class="card" style="width: 18rem; position: relative;">
-        <a href="#"style="text-decoration: none;"> <img class="card-img-top" src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-13-400x300.jpg" alt="Card image cap">
-          <div class="card-body">
-            <img src="https://eduma.thimpress.com/wp-content/uploads/learn-press-profile/7/e5c6a6fb8aa3864eacaec471611e0470.jpeg" alt="Image" class="image">
-            <div class="overlay"></div>
-            <h5 class="card-title" style="color: rgb(104 113 127);">keny white </h5>
-            <h6 class="card-title" style="color: rgb(0, 0, 0);">How to Teach English Online and Get Paid</h6>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="comment" viewBox="0 0 16 16">
-              <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z"/>
-            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="share" viewBox="0 0 16 16">
-              <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
-            </svg>
-          </div>
-        </a>
-        </div>
-      </div>
-      <div class="col-lg-3">
-        <div class="card" style="width: 18rem; position: relative;">
-          <a href="#"style="text-decoration: none;"><img class="card-img-top" src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-20-400x300.jpg" alt="Card image cap">
-          <div class="card-body">
-            <img src="https://secure.gravatar.com/avatar/17445360b49029117e3e61d7fc65c959?s=96&r=g" alt="Image" class="image">
-            <div class="overlay"></div>
-            <h5 class="card-title" style="color: rgb(104 113 127);">keny white </h5>
-            <h6 class="card-title" style="color: rgb(0, 0, 0);">How to Teach English Online and Get Paid</h6>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="comment" viewBox="0 0 16 16">
-              <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z"/>
-            </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="share" viewBox="0 0 16 16">
-              <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
-            </svg>
-            <a></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3">
-        <div class="card" style="width: 18rem; position: relative;">
-          <a href="#"style="text-decoration: none;"><img class="card-img-top" src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-19-400x300.jpg" alt="Card image cap">
-          <div class="card-body">
-            <img src="https://secure.gravatar.com/avatar/17445360b49029117e3e61d7fc65c959?s=96&r=g" alt="Image" class="image">
-            <div class="overlay"></div>
-            <h5 class="card-title" style="color: rgb(104 113 127);">keny white </h5>
-            <h6 class="card-title" style="color: rgb(0, 0, 0);">HOW TO TEACH ENGLISH ONLINE AND GET PAID </h6>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="comment" viewBox="0 0 16 16">
-              <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z"/>
-            </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="share" viewBox="0 0 16 16">
-              <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
-            </svg>
-            <a></a>
+    
 
-          </div>
+    <section class="hero">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8">
+                    <h1 class="mb-4">ONLINE COURSES TO LEARN</h1>
+                    <p class="lead mb-5">Own your future learning new skills online</p>
+                    <div class="search-bar mb-5">
+                        <input type="text" class="form-control" placeholder="What do you going to learn today?">
+                        <button class="btn btn-primary"><i class="bi bi-search"></i></button>
+                    </div>
+                    <div class="row justify-content-center features">
+                        <div class="col-md-4 mb-3 mb-md-0">
+                            <p><i class="bi bi-people-fill text-warning"></i> Over 7 million students</p>
+                        </div>
+                        <div class="col-md-4 mb-3 mb-md-0">
+                            <p><i class="bi bi-journal-richtext text-warning"></i> More than 30,000 courses</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p><i class="bi bi-laptop text-warning"></i> Learn anything online</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    </div>
-  </div> 
-  <div class="d-grid gap-2 col-2 mx-auto">
-    <a><button class="b" type="button" style="background-color: rgba(255, 255, 255, 0.93); position: relative; border-color: rgb(0, 0, 0);margin-top: 30px;margin-left: 80px;width: 189px;
-    height: 55px; "><span style="color: black;">VIEW ALL CORUSES ></span></button></a>
-  </div>
-  <div class="container4 mt-5" style="background-color: #e8e8e8;">
-      <div class="row" style="margin-top: 28px; height: 193px;">
-        <div class="col-lg-3" style="font-size: 42px; padding-top: 66px; font-style: italic; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; ma  ">
-          <strong >Top Categories</strong>
-        </div>
-        <div class="col-lg-3"style="margin-top: 23px;">
-          <div class="d-grid gap-2 col-10 mx-auto">
-            <div class="a"><a> <button class="btn btn-primary" type="button"style="height: 72px;width: 291px;background-color: white;
-            border-color: black;" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="setting-icon" viewBox="0 0 16 16 ">
-              <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492M5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0"/>
-              <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115z "/>
-            </svg> 
-           <span style="color: black;">Arts&craft</span></div>  </button></a>
-           <div class="a"> <button class="btn btn-primary" type="button"style="height: 72px;width: 291px;background-color: white;
-            border-color: black;" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="setting-icon" viewBox="0 0 16 16">
-            <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5M12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0m2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0M1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25"/>
-            </svg>
-           <span style="color: black;">Passive income</span></div>  </button>
-          </div>
-        </div>
-        <div class="col-lg-3"style="margin-top: 23px;">
-          <div class="d-grid gap-2 col-10 mx-auto">
-            <div class="a"> <button class="btn btn-primary" type="button"style="height: 72px;width: 291px;background-color: white;
-              border-color: black;" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="setting-icon" viewBox="0 0 16 16">
-            <path d="M4.04 7.43a4 4 0 0 1 7.92 0 .5.5 0 1 1-.99.14 3 3 0 0 0-5.94 0 .5.5 0 1 1-.99-.14M4 9.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm1 .5v3h6v-3h-1v.5a.5.5 0 0 1-1 0V10z"/>
-            <path d="M6 2.341V2a2 2 0 1 1 4 0v.341c.465.165.904.385 1.308.653l.416-1.247a1 1 0 0 1 1.748-.284l.77 1.027a1 1 0 0 1 .15.917l-.803 2.407C13.854 6.49 14 7.229 14 8v5.5a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 13.5V8c0-.771.146-1.509.41-2.186l-.802-2.407a1 1 0 0 1 .15-.917l.77-1.027a1 1 0 0 1 1.748.284l.416 1.247A6 6 0 0 1 6 2.34ZM7 2v.083a6 6 0 0 1 2 0V2a1 1 0 1 0-2 0m5.941 2.595.502-1.505-.77-1.027-.532 1.595q.447.427.8.937M3.86 3.658l-.532-1.595-.77 1.027.502 1.505q.352-.51.8-.937M8 3a5 5 0 0 0-5 5v5.5A1.5 1.5 0 0 0 4.5 15h7a1.5 1.5 0 0 0 1.5-1.5V8a5 5 0 0 0-5-5"/>
-            </svg>
-             <span style="color: black;">Coaching</span></div>  </button>
-             <div class="a"> <button class="btn btn-primary" type="button"style="height: 72px;width: 291px;background-color: white;
-              border-color: black;" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="setting-icon" viewBox="0 0 16 16">
-              <path d="M5 8c0-1.657 2.343-3 4-3V4a4 4 0 0 0-4 4"/>
-              <path d="M12.318 3h2.015C15.253 3 16 3.746 16 4.667v6.666c0 .92-.746 1.667-1.667 1.667h-2.015A5.97 5.97 0 0 1 9 14a5.97 5.97 0 0 1-3.318-1H1.667C.747 13 0 12.254 0 11.333V4.667C0 3.747.746 3 1.667 3H2a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1h.682A5.97 5.97 0 0 1 9 2c1.227 0 2.367.368 3.318 1M2 4.5a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0M14 8A5 5 0 1 0 4 8a5 5 0 0 0 10 0"/>
-              </svg>
-             <span style="color: black;">Photography</span></div>  </button>
-          </div>
-        </div>
-        <div class="col-lg-3" style="margin-top: 23px;">
-          <div class="d-grid gap-2 col-10 mx-auto">
-            <div class="a"> <button class="btn btn-primary" type="button"style="height: 72px;width: 291px;background-color: white;
-              border-color: black;" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="setting-icon" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M11.096.644a2 2 0 0 1 2.791.036l1.433 1.433a2 2 0 0 1 .035 2.791l-.413.435-8.07 8.995a.5.5 0 0 1-.372.166h-3a.5.5 0 0 1-.234-.058l-.412.412A.5.5 0 0 1 2.5 15h-2a.5.5 0 0 1-.354-.854l1.412-1.412A.5.5 0 0 1 1.5 12.5v-3a.5.5 0 0 1 .166-.372l8.995-8.07zm-.115 1.47L2.727 9.52l3.753 3.753 7.406-8.254zm3.585 2.17.064-.068a1 1 0 0 0-.017-1.396L13.18 1.387a1 1 0 0 0-1.396-.018l-.068.065zM5.293 13.5 2.5 10.707v1.586L3.707 13.5z"/>
-              </svg>
-             <span style="color: black;">online business</span></div>  </button>
-             <div class="a"> <button class="btn btn-primary" type="button"style="height: 72px;width: 291px;background-color: white;
-              border-color: black;" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="setting-icon" viewBox="0 0 16 16">
-              <path d="M12.433 10.07C14.133 10.585 16 11.15 16 8a8 8 0 1 0-8 8c1.996 0 1.826-1.504 1.649-3.08-.124-1.101-.252-2.237.351-2.92.465-.527 1.42-.237 2.433.07M8 5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m4.5 3a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3M5 6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m.5 6.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"/>
-              </svg>
-             <span style="color: black;">teacher training</span></div>  </button>
-          </div>
-        </div>
-      </div>
-  </div>
-  <h2 style="text-align: center; padding-top: 44px;" ><strong>New Courses</strong><BR>
-    <span style="font-size: 13px;margin-top: 10px;" >All eduma, all the time</span></h2>
-  <div class="row"style="padding-top: 48px;">
-    <div class="col-lg-3">
-      <div class="card" style="width: 18rem; position: relative;">
-        <a href="#"style="text-decoration: none;"> <img class="card-img-top" src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-18-400x300.jpg" alt="Card image cap">
-        <div class="card-body">
-           <img src="https://secure.gravatar.com/avatar/17445360b49029117e3e61d7fc65c959?s=96&r=g" alt="Image" class="image">
-          <div class="overlay"></div>
-          <h5 class="card-title" style="color: rgb(104 113 127);">keny white </h5>
-          <h6 class="card-title" style="color: rgb(0, 0, 0);">How to Teach English Online and Get Paid</h6>
-          <div class="alignment">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="comment" viewBox="0 0 16 16">
-            <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z"/>
-          </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="share" viewBox="0 0 16 16">
-            <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
-          </svg>
-        </div>
-        </a>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-3">
-      <div class="card" style="width: 18rem; position: relative;">
-      <a href="#" style="text-decoration: none;"> <img class="card-img-top" src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-17-400x300.jpg" alt="Card image cap">
-        <div class="card-body">
-          <img src="https://eduma.thimpress.com/wp-content/uploads/learn-press-profile/7/e5c6a6fb8aa3864eacaec471611e0470.jpeg" alt="Image" class="image">
-          <div class="overlay"></div>
-          <h5 class="card-title" style="color: rgb(104 113 127);">keny white </h5>
-          <h6 class="card-title" style="color: rgb(0, 0, 0);">How To Create In-Demand Online Courses</h6>
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="comment" viewBox="0 0 16 16">
-            <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z"/>
-          </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="share" viewBox="0 0 16 16">
-            <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
-          </svg>
-        </div>
-      </a>
-      </div>
-    </div>
-    <div class="col-lg-3">
-      <div class="card" style="width: 18rem; position: relative;">
-        <a href="#"style="text-decoration: none;"><img class="card-img-top" src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-16-400x300.jpg" alt="Card image cap">
-        <div class="card-body">
-          <img src="https://secure.gravatar.com/avatar/17445360b49029117e3e61d7fc65c959?s=96&r=g" alt="Image" class="image">
-          <div class="overlay"></div>
-          <h5 class="card-title" style="color: rgb(104 113 127);">keny white </h5>
-          <h6 class="card-title" style="color: rgb(0, 0, 0);">Instructional Design for Learning and Development</h6>
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="comment" viewBox="0 0 16 16">
-            <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z"/>
-          </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="share" viewBox="0 0 16 16">
-            <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
-          </svg>
-          <a></a>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-3">
-      <div class="card" style="width: 18rem; position: relative;">
-        <a href="#"style="text-decoration: none;"><img class="card-img-top" src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-15-400x300.jpg" alt="Card image cap">
-        <div class="card-body">
-          <img src="https://eduma.thimpress.com/wp-content/uploads/learn-press-profile/7/e5c6a6fb8aa3864eacaec471611e0470.jpeg" alt="Image" class="image">
-          <div class="overlay"></div>
-          <h5 class="card-title" style="color: rgb(104 113 127);">keny white </h5>
-          <h6 class="card-title" style="color: rgb(0, 0, 0);">Begin Teaching Online Full Time</h6>
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="comment" viewBox="0 0 16 16">
-            <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1z"/>
-          </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="share" viewBox="0 0 16 16">
-            <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
-          </svg>
-          <a></a>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+    </section>
 
+    <section class="card-section py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <div class="card h-100">
+                <img src="https://eduma.thimpress.com/wp-content/uploads/2022/06/courses-13-450x450.jpg" class="card-img-top" alt="Person working on laptop">
+                <div class="card-body">
+                  <h5 class="card-title">Top Tutorials Code for Startup</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100">
+                <img src="https://eduma.thimpress.com/wp-content/uploads/2022/06/courses-5-450x450.jpg" class="card-img-top" alt="Two people studying">
+                <div class="card-body">
+                  <h5 class="card-title">The Top PHP Tutorials</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100">
+                <img src="https://eduma.thimpress.com/wp-content/uploads/2022/06/courses-7-450x450.jpg" class="card-img-top" alt="Person working on laptop">
+                <div class="card-body">
+                  <h5 class="card-title">Education WordPress Theme</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="popular-courses py-5">
+        <div class="container">
+          <h2 class="text-center mb-2">Popular Courses</h2>
+          <p class="text-center text-muted mb-5">Limitless learning, more possibilities</p>
+          
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            <!-- Course Card 1 -->
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-18-400x300.jpg" class="card-img-top" alt="How to Teach English Online">
+                <div class="card-body">
+                  <div class="d-flex align-items-center mb-2">
+                    <img src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-18-400x300.jpg" class="rounded-circle me-2" width="30" height="30" alt="Keny White">
+                    <span class="text-muted">Keny White</span>
+                  </div>
+                  <h5 class="card-title">How to Teach English Online and Get Paid</h5>
+                  <div class="d-flex justify-content-between align-items-center mt-3">
+                    <div>
+                      <small class="text-muted me-2"><i class="bi bi-chat"></i> 7</small>
+                      <small class="text-muted"><i class="bi bi-people"></i> 8</small>
+                    </div>
+                    <span class="text-danger fw-bold">$39.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                  <img src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-17-400x300.jpg" class="card-img-top" alt="How to Teach English Online">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center mb-2">
+                      <img src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-18-400x300.jpg" class="rounded-circle me-2" width="30" height="30" alt="Keny White">
+                      <span class="text-muted">Keny White</span>
+                    </div>
+                    <h5 class="card-title">How to Teach English Online and Get Paid</h5>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                      <div>
+                        <small class="text-muted me-2"><i class="bi bi-chat"></i> 7</small>
+                        <small class="text-muted"><i class="bi bi-people"></i> 8</small>
+                      </div>
+                      <span class="text-danger fw-bold">$39.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-16-400x300.jpg" class="card-img-top" alt="How to Teach English Online">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center mb-2">
+                      <img src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-18-400x300.jpg" class="rounded-circle me-2" width="30" height="30" alt="Keny White">
+                      <span class="text-muted">Keny White</span>
+                    </div>
+                    <h5 class="card-title">How to Teach English Online and Get Paid</h5>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                      <div>
+                        <small class="text-muted me-2"><i class="bi bi-chat"></i> 7</small>
+                        <small class="text-muted"><i class="bi bi-people"></i> 8</small>
+                      </div>
+                      <span class="text-danger fw-bold">$39.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-15-400x300.jpg" class="card-img-top" alt="How to Teach English Online">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center mb-2">
+                      <img src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-18-400x300.jpg" class="rounded-circle me-2" width="30" height="30" alt="Keny White">
+                      <span class="text-muted">Keny White</span>
+                    </div>
+                    <h5 class="card-title">How to Teach English Online and Get Paid</h5>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                      <div>
+                        <small class="text-muted me-2"><i class="bi bi-chat"></i> 7</small>
+                        <small class="text-muted"><i class="bi bi-people"></i> 8</small>
+                      </div>
+                      <span class="text-danger fw-bold">$39.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-14-400x300.jpg" class="card-img-top" alt="How to Teach English Online">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center mb-2">
+                      <img src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-18-400x300.jpg" class="rounded-circle me-2" width="30" height="30" alt="Keny White">
+                      <span class="text-muted">Keny White</span>
+                    </div>
+                    <h5 class="card-title">How to Teach English Online and Get Paid</h5>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                      <div>
+                        <small class="text-muted me-2"><i class="bi bi-chat"></i> 7</small>
+                        <small class="text-muted"><i class="bi bi-people"></i> 8</small>
+                      </div>
+                      <span class="text-danger fw-bold">$39.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-13-400x300.jpg" class="card-img-top" alt="How to Teach English Online">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center mb-2">
+                      <img src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-18-400x300.jpg" class="rounded-circle me-2" width="30" height="30" alt="Keny White">
+                      <span class="text-muted">Keny White</span>
+                    </div>
+                    <h5 class="card-title">How to Teach English Online and Get Paid</h5>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                      <div>
+                        <small class="text-muted me-2"><i class="bi bi-chat"></i> 7</small>
+                        <small class="text-muted"><i class="bi bi-people"></i> 8</small>
+                      </div>
+                      <span class="text-danger fw-bold">$39.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-20-400x300.jpg" class="card-img-top" alt="How to Teach English Online">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center mb-2">
+                      <img src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-18-400x300.jpg" class="rounded-circle me-2" width="30" height="30" alt="Keny White">
+                      <span class="text-muted">Keny White</span>
+                    </div>
+                    <h5 class="card-title">How to Teach English Online and Get Paid</h5>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                      <div>
+                        <small class="text-muted me-2"><i class="bi bi-chat"></i> 7</small>
+                        <small class="text-muted"><i class="bi bi-people"></i> 8</small>
+                      </div>
+                      <span class="text-danger fw-bold">$39.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-18-400x300.jpg" class="card-img-top" alt="How to Teach English Online">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center mb-2">
+                      <img src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-18-400x300.jpg" class="rounded-circle me-2" width="30" height="30" alt="Keny White">
+                      <span class="text-muted">Keny White</span>
+                    </div>
+                    <h5 class="card-title">How to Teach English Online and Get Paid</h5>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                      <div>
+                        <small class="text-muted me-2"><i class="bi bi-chat"></i> 7</small>
+                        <small class="text-muted"><i class="bi bi-people"></i> 8</small>
+                      </div>
+                      <span class="text-danger fw-bold">$39.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            
+            <!-- Repeat the above card structure for the other 7 cards, changing the content accordingly -->
+            
+          </div>
+        </div>
+      </section>
+
+      <div class="text-center mb-5">
+        <a href="#" class="btn btn-light btn-lg">
+          VIEW ALL COURSES <i class="bi bi-chevron-right"></i>
+        </a>
+      </div>
+
+      <section class="top-categories py-5 bg-light">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-3 mb-4 mb-lg-0">
+              <h2 class="fw-bold">Top Categories</h2>
+            </div>
+            <div class="col-lg-9">
+              <div class="row row-cols-2 row-cols-md-3 g-3">
+                <div class="col">
+                  <div class="card border-0 bg-white">
+                    <div class="card-body d-flex align-items-center">
+                      <i class="bi bi-gear-wide-connected me-3 fs-4"></i>
+                      <span>Arts & Crafts</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border-0 bg-white">
+                    <div class="card-body d-flex align-items-center">
+                      <i class="bi bi-people me-3 fs-4"></i>
+                      <span>Coaching</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border-0 bg-white">
+                    <div class="card-body d-flex align-items-center">
+                      <i class="bi bi-globe me-3 fs-4"></i>
+                      <span>Online Business</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border-0 bg-white">
+                    <div class="card-body d-flex align-items-center">
+                      <i class="bi bi-graph-up me-3 fs-4"></i>
+                      <span>Passive Income</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border-0 bg-white">
+                    <div class="card-body d-flex align-items-center">
+                      <i class="bi bi-camera me-3 fs-4"></i>
+                      <span>Photography</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border-0 bg-white">
+                    <div class="card-body d-flex align-items-center">
+                      <i class="bi bi-code-square me-3 fs-4"></i>
+                      <span>Teacher Training</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="new-courses py-5">
+        <div class="container">
+          <h2 class="text-center mb-2">New Courses</h2>
+          <p class="text-center text-muted mb-5">All eduma, all the time</p>
+          
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            <!-- Course Card 1 -->
+            
+            <div class="col">
+                <div class="card h-100">
+                  <img src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-18-400x300.jpg" class="card-img-top" alt="How to Teach English Online">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center mb-2">
+                      <img src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-18-400x300.jpg" class="rounded-circle me-2" width="30" height="30" alt="Keny White">
+                      <span class="text-muted">Keny White</span>
+                    </div>
+                    <h5 class="card-title">How to Teach English Online and Get Paid</h5>
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                      <div>
+                        <small class="text-muted me-2"><i class="bi bi-chat"></i> 7</small>
+                        <small class="text-muted"><i class="bi bi-people"></i> 8</small>
+                      </div>
+                      <span class="text-danger fw-bold">$39.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                  <div class="card h-100">
+                    <img src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-17-400x300.jpg" class="card-img-top" alt="How to Teach English Online">
+                    <div class="card-body">
+                      <div class="d-flex align-items-center mb-2">
+                        <img src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-18-400x300.jpg" class="rounded-circle me-2" width="30" height="30" alt="Keny White">
+                        <span class="text-muted">Keny White</span>
+                      </div>
+                      <h5 class="card-title">How to Teach English Online and Get Paid</h5>
+                      <div class="d-flex justify-content-between align-items-center mt-3">
+                        <div>
+                          <small class="text-muted me-2"><i class="bi bi-chat"></i> 7</small>
+                          <small class="text-muted"><i class="bi bi-people"></i> 8</small>
+                        </div>
+                        <span class="text-danger fw-bold">$39.00</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-16-400x300.jpg" class="card-img-top" alt="How to Teach English Online">
+                    <div class="card-body">
+                      <div class="d-flex align-items-center mb-2">
+                        <img src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-18-400x300.jpg" class="rounded-circle me-2" width="30" height="30" alt="Keny White">
+                        <span class="text-muted">Keny White</span>
+                      </div>
+                      <h5 class="card-title">How to Teach English Online and Get Paid</h5>
+                      <div class="d-flex justify-content-between align-items-center mt-3">
+                        <div>
+                          <small class="text-muted me-2"><i class="bi bi-chat"></i> 7</small>
+                          <small class="text-muted"><i class="bi bi-people"></i> 8</small>
+                        </div>
+                        <span class="text-danger fw-bold">$39.00</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-15-400x300.jpg" class="card-img-top" alt="How to Teach English Online">
+                    <div class="card-body">
+                      <div class="d-flex align-items-center mb-2">
+                        <img src="https://eduma.thimpress.com/wp-content/uploads/2022/06/course-18-400x300.jpg" class="rounded-circle me-2" width="30" height="30" alt="Keny White">
+                        <span class="text-muted">Keny White</span>
+                      </div>
+                      <h5 class="card-title">How to Teach English Online and Get Paid</h5>
+                      <div class="d-flex justify-content-between align-items-center mt-3">
+                        <div>
+                          <small class="text-muted me-2"><i class="bi bi-chat"></i> 7</small>
+                          <small class="text-muted"><i class="bi bi-people"></i> 8</small>
+                        </div>
+                        <span class="text-danger fw-bold">$39.00</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            
+            <!-- Repeat the above card structure for the other 3 cards, changing the content accordingly -->
+            
+          </div>
+        </div>
+      </section>
+
+      <section class="container my-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <div>
+            <h2 class="mb-1">Explore Certificates</h2>
+            <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+          </div>
+          <a href="#" class="text-decoration-none">VIEW ALL</a>
+        </div>
+        
+        <div class="row">
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+              <img src="path_to_certificate1.jpg" class="card-img-top" alt="Certificate of Training">
+              <div class="card-body">
+                <h5 class="card-title">Certificate of Training</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+              <img src="path_to_certificate2.jpg" class="card-img-top" alt="Course Completion">
+              <div class="card-body">
+                <h5 class="card-title">Course Completion</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+              <img src="path_to_certificate3.jpg" class="card-img-top" alt="Digital Marketing">
+              <div class="card-body">
+                <h5 class="card-title">Digital Marketing</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+              <img src="path_to_certificate4.jpg" class="card-img-top" alt="Data Analytics">
+              <div class="card-body">
+                <h5 class="card-title">Data Analytics</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="counter-section py-5" style="background-image: url('path_to_background_image.jpg'); background-size: cover; background-position: center;">
+        <div class="container">
+          <div class="row text-center text-white">
+            <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+              <div class="counter-item">
+                <i class="fas fa-clipboard-list fa-3x mb-3"></i>
+                <h2 class="counter" data-target="94532">0</h2>
+                <p>Learners</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+              <div class="counter-item">
+                <i class="fas fa-user-graduate fa-3x mb-3"></i>
+                <h2 class="counter" data-target="60483">0</h2>
+                <p>Graduates</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+              <div class="counter-item">
+                <i class="fas fa-globe fa-3x mb-3"></i>
+                <h2 class="counter" data-target="35">0</h2>
+                <p>Countries Reached</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="counter-item">
+                <i class="fas fa-book fa-3x mb-3"></i>
+                <h2 class="counter" data-target="1560">0</h2>
+                <p>Courses Published</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <script>
+        const counters = document.querySelectorAll('.counter');
+        const speed = 200;
+      
+        counters.forEach(counter => {
+          const updateCount = () => {
+            const target = +counter.getAttribute('data-target');
+            const count = +counter.innerText;
+            const inc = target / speed;
+      
+            if (count < target) {
+              counter.innerText = Math.ceil(count + inc);
+              setTimeout(updateCount, 1);
+            } else {
+              counter.innerText = target;
+            }
+          };
+          updateCount();
+        });
+      </script>
+    <section class="testimonial-section py-5">
+    <div class="container">
+      <h2 class="text-center mb-2">What People Say</h2>
+      <p class="text-center text-muted mb-5">How real people said about Education WordPress Theme.</p>
+      
+      <div id="testimonialCarousel" class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="testimonial text-center">
+            <div class="avatar-group mb-4">
+              <img src="avatar1.jpg" alt="Avatar" class="avatar">
+              <img src="avatar2.jpg" alt="Avatar" class="avatar">
+              <img src="avatar3.jpg" alt="Avatar" class="avatar active">
+              <img src="avatar4.jpg" alt="Avatar" class="avatar">
+              <img src="avatar5.jpg" alt="Avatar" class="avatar">
+            </div>
+            <h5>Manuel</h5>
+            <p class="text-muted">Designer</p>
+            <p class="testimonial-text">
+              "LearnPress is a comprehensive LMS solution for WordPress. This WordPress LMS Plugin can be used to easily create & sell courses online. Each course curriculum can be made with lessons & quizzes which can be managed with easy-to-use user interface, it never gets easier with LearnPress."
+            </p>
+          </div>
+        </div>
+        <!-- Add more testimonial items here -->
+      </div>
+    </div>
+  </section>
+  <script>
+    $(document).ready(function(){
+  $("#testimonialCarousel").owlCarousel({
+    items: 1,
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
+    nav: false,
+    dots: true
+  });
+});
+  </script>
+  
+  <!-- Subscribe Section -->
+  <section class="subscribe-section py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6 mb-3 mb-md-0">
+                <div class="d-flex align-items-center">
+                    <img src="envelope-icon.png" alt="Envelope" class="mr-3" style="height: 60px;">
+                    <p class="mb-0">Subscribe now and receive weekly newsletter with educational materials, new courses, interesting posts, popular books and much more!</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <form class="d-flex">
+                    <input type="email" class="form-control mr-2" placeholder="Your email here">
+                    <button type="submit" class="btn btn-warning">SUBSCRIBE</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white pt-5 pb-4">
+    <div class="container text-md-left">
+        <div class="row text-md-left">
+
+            <!-- Company Info -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold">
+                    <img src="your-logo.png" alt="EDUMA" style="height: 40px;"> EDUMA
+                </h5>
+                <p><i class="fa fa-phone mr-3"></i> 800 388 80 90</p>
+                <p><i class="fa fa-map-marker mr-3"></i> 58 Howard Street #2 San Francisco</p>
+                <p><i class="fa fa-envelope mr-3"></i> contact@eduma.com</p>
+                <div class="mt-2">
+                    <a href="#"><i class="fa fa-facebook-f mr-3"></i></a>
+                    <a href="#"><i class="fa fa-twitter mr-3"></i></a>
+                    <a href="#"><i class="fa fa-pinterest-p mr-3"></i></a>
+                    <a href="#"><i class="fa fa-instagram mr-3"></i></a>
+                </div>
+            </div>
+
+            <!-- Company Links -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold">Company</h5>
+                <p><a href="#" class="text-white" style="text-decoration: none;">About</a></p>
+                <p><a href="#" class="text-white" style="text-decoration: none;">Blog</a></p>
+                <p><a href="#" class="text-white" style="text-decoration: none;">Contact</a></p>
+                <p><a href="#" class="text-white" style="text-decoration: none;">Become a Teacher</a></p>
+            </div>
+
+            <!-- Useful Links -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold">Links</h5>
+                <p><a href="#" class="text-white" style="text-decoration: none;">Courses</a></p>
+                <p><a href="#" class="text-white" style="text-decoration: none;">Events</a></p>
+                <p><a href="#" class="text-white" style="text-decoration: none;">Gallery</a></p>
+                <p><a href="#" class="text-white" style="text-decoration: none;">FAQs</a></p>
+            </div>
+
+            <!-- Support -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold">Support</h5>
+                <p><a href="#" class="text-white" style="text-decoration: none;">Documentation</a></p>
+                <p><a href="#" class="text-white" style="text-decoration: none;">Forums</a></p>
+                <p><a href="#" class="text-white" style="text-decoration: none;">Language Packs</a></p>
+                <p><a href="#" class="text-white" style="text-decoration: none;">Release Status</a></p>
+            </div>
+
+            <!-- Recommend -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold">Recommend</h5>
+                <p><a href="#" class="text-white" style="text-decoration: none;">WordPress</a></p>
+                <p><a href="#" class="text-white" style="text-decoration: none;">LearnPress</a></p>
+                <p><a href="#" class="text-white" style="text-decoration: none;">WooCommerce</a></p>
+                <p><a href="#" class="text-white" style="text-decoration: none;">bbPress</a></p>
+            </div>
+
+        </div>
+        <hr class="mb-4">
+        <div class="row align-items-center">
+            <div class="col-md-8 col-lg-8">
+                <p class="text-white">© 2024 EDUMA. All Rights Reserved.</p>
+            </div>
+            <div class="col-md-4 col-lg-4">
+                <ul class="list-unstyled list-inline text-right">
+                    <li class="list-inline-item"><a href="#" class="text-white">Privacy</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white">Terms</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white">Sitemap</a></li>
+                    <li class="list-inline-item"><a href="#" class="text-white">Purchase</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
